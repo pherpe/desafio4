@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    /*HEADER*/
+    header{
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0); 
+        text-align: center;
+        background-image: url(img/remeras.jpg); 
+        border: 1px solid black;
+    }
+    header h1{
+        font-size: 40px;
+        text-shadow: 5px 5px 10px #ff5c87;
+    }
+
+    
+/*NAV*/
+    #navegador{
+        background-color: #fe5b86;
+        height: 25px ;
+        border: 1px solid black;
+    }
+    
+    #ulnavegador{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        font-size: 15px;
+    }
+
+    /*menu*/
+main{
+    background-color: black;
+    display: grid;
+    height: 600px;
+    grid-template-columns: 80%;
+    grid-template-rows: 20% 20% 20% 20% ;
+    grid-template-areas:"foto1"
+                        "foto2"
+                        "foto3"
+                        "foto4";
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    }
+
+#foto1{
+    grid-area: foto1;
+}
+#foto2{
+    grid-area: foto2;
+}
+#foto3{
+    grid-area: foto3;
+}
+#foto4{
+    grid-area: foto4;
+}
+/*PIE DE PAGINA*/
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+#ulpiedepagina{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    height: 200px;
+    }
+    
+
+#redes{
+    flex-direction: row;
+    align-content: center;
+}
+
+#iconosredes{
+    height: 50px;
+    width: 50px;
+}
+
+}
+@media only screen and (min-width: 600px){
+        /*HEADER*/
+        header{
+            height: 300px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0); 
+            text-align: center;
+            background-image: url(img/remeras.jpg); 
+            border: 2px solid black;
+        }
+        header h1{
+            font-size: 60px;
+            text-shadow: 1px 1px 5px #000000;
+        }
+    
+        
+    /*NAV*/
+        #navegador{
+            background-color: #c7c3c4;
+            height: 50px ;
+            border: 2px solid black;
+        }
+        
+        #ulnavegador{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style-type: none;
+            font-size: 35px;
+        }
+    
+        /*menu*/
+    main{
+        background-color: #c7c3c4;
+        display: grid;
+        height: 600px;
+        grid-template-columns: 80%;
+        grid-template-rows: 20% 
+                            20%
+                            20% 
+                            20%;
+        grid-template-areas:"foto1"
+                            "foto2"
+                            "foto3" 
+                            "foto4";
+        align-content: space-evenly;
+        justify-content: space-evenly;
+        }
+    
+    #foto1{
+        grid-area: foto1;
+    }
+    #foto2{
+        grid-area: foto2;
+    }
+    #foto3{
+        grid-area: foto3;
+    }
+    #foto4{
+        grid-area: foto4;
+    }
+    /*PIE DE PAGINA*/
+    
+    footer{
+        background-color:#fd5c86 ;
+        height: 200px;
+    }
+    #ulpiedepagina{
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        align-items: center;
+        height: 200px;
+        list-style-type: none;
+        }
+        
+    
+    #redes{
+        flex-direction: row;
+        
+    }
+    
+    #iconosredes{
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+            /*HEADER*/
+            header{
+                height: 400px;
+                background-color: rgb(0, 0, 0);
+                color: rgb(0, 0, 0); 
+                text-align: center;
+                background-image: url(img/remeras.jpg); 
+                border: 3px solid black;
+            }
+            header h1{
+                color: #453d4a;
+                font-size: 60px;
+                text-shadow: 1px 1px 10px white;
+            }
+        
+            
+        /*NAV*/
+            #navegador{
+                background-color: #c7c3c4;
+                height: 50px ;
+                border: 3px solid black;
+            }
+            
+            #ulnavegador{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                list-style-type: none;
+                font-size: 35px;
+            }
+        
+            /*menu*/
+        main{
+            background-color: #000000;
+            display: grid;
+            height: 1200px;
+            grid-template-columns: 45% 45%;
+            grid-template-rows: 20% 20%;
+            grid-template-areas:"foto1 foto2"
+                                "foto3 foto4";
+            align-content: space-evenly;
+            justify-content: space-evenly;
+            }
+        
+        #foto1{
+            grid-area: foto1;
+        }
+        #foto2{
+            grid-area: foto2;
+        }
+        #foto3{
+            grid-area: foto3;
+        }
+        #foto4{
+            grid-area: foto4;
+        }
+        /*PIE DE PAGINA*/
+        
+        footer{
+            background-color: #a2a2a2 ;
+            height: 300px;
+        }
+        #ulpiedepagina{
+            display: flex;
+            justify-content: space-around;
+            height: 200px;
+            align-items: center;
+            height: 200px;
+            list-style-type: none;
+            }
+            
+        
+        #redes{
+            flex-direction: row;
+            
+        }
+        
+        #iconosredes{
+            height: 120px;
+            width: 120px;
+        }
+    
+
+}

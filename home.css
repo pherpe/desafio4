@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){  
+        /*HEADER*/
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(46, 42, 42); 
+    height: 200px;
+    text-align: center;
+    background-image: url(img/remeras.jpg);
+    
+}
+header h1{
+    font-size: 40px;
+    text-shadow: 5px 5px 10px rgb(255, 253, 254);
+}
+
+/*NAV*/
+
+#navegador{
+    background-color: #fd8842;
+    height: 30px ;
+    border: 1px solid black;   
+
+}
+
+#ulnavegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/*MENU*/
+main{
+    background-color: black;
+    display: grid;
+    height: 600px;
+    grid-template-columns: 60%;
+    grid-template-rows: 30% 50% ;
+    grid-template-areas:"h2"
+                        "foto5";
+    align-content: center;
+    justify-content:center;
+    }
+    
+    #foto5{
+        grid-area: foto5;
+    }
+
+    h2{
+        grid-area: h2;
+        color: rgb(255, 255, 255);
+        font-size: 40px ;
+        text-align: center;
+    }
+
+/*PIE DE PAGINA*/
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+#ulpiedepagina{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    height: 200px;
+    }
+
+#redes{
+    flex-direction: row;
+    
+}
+
+#iconosredes{
+    height: 50px;
+    width: 50px;
+}
+}
+
+@media only screen and (min-width: 600px){    
+            /*HEADER*/
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(46, 42, 42); 
+    height: 300px;
+    text-align: center;
+    background-image: url(img/remeras.jpg);
+    
+}
+header h1{
+    font-size: 40px;
+    text-shadow: 5px 5px 10px rgb(255, 253, 254);
+}
+
+/*NAV*/
+
+#navegador{
+    background-color: #c5c1c2;
+    height: 30px ;
+    border: 1px solid black;   
+
+}
+
+#ulnavegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+/*MENU*/
+main{
+    background-color: #fe5b86;
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 60%;
+    grid-template-rows: 30% 50% ;
+    grid-template-areas:"h2"
+                        "foto5";
+    align-content: center;
+    justify-content:center;
+    }
+    
+    #foto5{
+        grid-area: foto5;
+    }
+
+    h2{
+        grid-area: h2;
+        color: rgb(255, 255, 255);
+        font-size: 50px ;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif ;
+    }
+
+/*PIE DE PAGINA*/
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+#ulpiedepagina{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    }
+
+#redes{
+    flex-direction: row;
+    
+
+}
+
+#iconosredes{
+    height: 100px;
+    width: 100px;
+    
+}
+}
+
+@media only screen and (min-width:1024px){
+                /*HEADER*/
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(46, 42, 42); 
+    height: 400px;
+    text-align: center;
+    background-image: url(img/remeras.jpg);
+    
+}
+header h1{
+    font-size: 70px;
+    text-shadow: 5px 5px 10px rgb(255, 253, 254);
+}
+
+/*NAV*/
+
+#navegador{
+    background-color: #c5c1c2;
+    height: 50px ;
+    border: 3px solid black;   
+
+}
+
+#ulnavegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+/*MENU*/
+main{
+    background-color: #fea600;
+    display: grid;
+    height: 1400px;
+    grid-template-columns: 80%;
+    grid-template-rows: 30% 50% ;
+    grid-template-areas:"h2"
+                        "foto5";
+    align-content: center;
+    justify-content:center;
+    }
+    
+    #foto5{
+        grid-area: foto5;
+    }
+
+    h2{
+        grid-area: h2;
+        color: #463e4b;
+        text-shadow: 5px 5px 10px #38323c;
+        font-size: 100px ;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif ;
+    }
+
+/*PIE DE PAGINA*/
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+#ulpiedepagina{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    }
+
+#redes{
+    flex-direction: row;
+    
+
+}
+
+#iconosredes{
+    height: 100px;
+    width: 100px;
+    
+}
+
+}
+
